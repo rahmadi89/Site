@@ -61,6 +61,7 @@ export default ((opts: Options) => {
       giscusScript.setAttribute("data-input-position", "${opts.options.inputPosition ?? "bottom"}")
 
       const theme = document.documentElement.getAttribute("saved-theme")
+	  giscusScript.setAttribute("data-lang", "fa")
       giscusScript.setAttribute("data-theme", theme)
       giscusContainer.appendChild(giscusScript)
 
