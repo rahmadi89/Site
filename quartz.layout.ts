@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     provider: 'giscus',
     options: {
       // from data-repo
-      repo: 'rahmadi89/site',
+      repo: 'RAhmadi89/Site',
       // from data-repo-id
       repoId: 'R_kgDOOgdC6Q',
       // from data-category
@@ -22,7 +22,7 @@ export const sharedPageComponents: SharedLayout = {
 ],
   footer: Component.Footer({
     //links: {
-    //  GitHub: "https://github.com/jackyzha0/quartz",
+    GitHub: "https://github.com/rahmadi89",
     //  "Discord Community": "https://discord.gg/cRFFHYye7t",
     //},
   }),
