@@ -10,16 +10,16 @@ export const sharedPageComponents: SharedLayout = {
     provider: 'giscus',
     options: {
       // from data-repo
-      repo: 'rahmadi89/site',
+      repo: 'eledah/quartz_blog',
       // from data-repo-id
-      repoId: 'R_kgDOOgdC6Q',
+      repoId: 'R_kgDOLxbW_g',
       // from data-category
       category: 'Announcements',
       // from data-category-id
-      categoryId: 'DIC_kwDOOgdC6c4Cpg69',
+      categoryId: 'DIC_kwDOLxbW_s4ChRbJ',
     }
   }),
-],,
+],
   footer: Component.Footer({
     //links: {
     //  GitHub: "https://github.com/jackyzha0/quartz",
