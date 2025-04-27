@@ -46,8 +46,14 @@
     opacity: 0.8;
   }
 
-  &.collapsed .fold {
-    transform: rotateZ(90deg);
+  @media all and ($mobile) {
+    order: -1;
+    height: initial;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   button.mobile-explorer {
