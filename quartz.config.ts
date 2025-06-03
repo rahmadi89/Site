@@ -19,6 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "RouhollahAhmadi.ir",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
+    customCss: "styles/custom.scss",
 	theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
