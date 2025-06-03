@@ -31,7 +31,7 @@ function toggleExplorer(this: HTMLElement) {
 
   if (!explorerCollapsed) {
     // Stop <html> from being scrollable when mobile explorer is open
-    document.documentElement.classList.remove("mobile-no-scroll")
+    document.documentElement.classList.add("mobile-no-scroll")
   } else {
     document.documentElement.classList.remove("mobile-no-scroll")
   }
