@@ -67,6 +67,7 @@ code {
 }
 
 
-.mobile-no-scroll {
-  overflow: auto;
+html
+{
+	overflow-y: auto !important;
 }
