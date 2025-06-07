@@ -37,17 +37,17 @@ export const defaultContentPageLayout: PageLayout = {
   Component.TagList(),
   ],
   right: [
-  Component.Graph(),
-  Component.Backlinks(),
-  Component.PageTitle(),
-  Component.Darkmode(),
+  Component.DesktopOnly(Component.Graph()),
+  Component.DesktopOnly(Component.Backlinks()),
+  Component.MobileOnly(Component.PageTitle()),
+  Component.MobileOnly(Component.Darkmode()),
   ],
   left: [
-  Component.PageTitle(),
-  Component.Search(),
-  Component.Darkmode(),
-  Component.Explorer(),
-  Component.TableOfContents(),
+  Component.DesktopOnly(Component.PageTitle()),
+  Component.DesktopOnly(Component.Search()),
+  Component.DesktopOnly(Component.Darkmode()),
+  Component.DesktopOnly(Component.Explorer()),
+  Component.DesktopOnly(Component.TableOfContents()),
   ],
 }
  
@@ -55,13 +55,13 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-  Component.PageTitle(),
-  Component.Darkmode(),
+  Component.MobileOnly(Component.PageTitle()),
+  Component.MobileOnly(Component.Darkmode()),
   ],
   right: [
-  Component.PageTitle(),
-  Component.Search(),
-  Component.Darkmode(),
-  Component.Explorer(),
+  Component.DesktopOnly(Component.PageTitle()),
+ Component.DesktopOnly(Component.Search()),
+  Component.DesktopOnly(Component.Darkmode()),
+  Component.DesktopOnly(Component.Explorer()),
   ],
 }
